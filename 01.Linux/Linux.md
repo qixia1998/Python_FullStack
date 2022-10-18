@@ -41,3 +41,11 @@
 `>` : 覆盖 <br>
 `>>` : 追加 <br>
 
+### 4.文本处理类
+<b>wc</b> <br>
+` wc [OPTION]... [FILE]... `<br>
+` wc [OPTION]... --files0-from=F` <br>
+&nbsp;&nbsp;-l : --lines 统计行数 <br>
+&nbsp;&nbsp;-c : --bytes 统计字节数 <br>
+&nbsp;&nbsp;-w : --words 统计单词数 <br>
+&nbsp;&nbsp;-L : --max-line-length 打印最长行的长度 <br>
