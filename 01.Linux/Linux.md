@@ -49,3 +49,10 @@
 &nbsp;&nbsp;-c : --bytes 统计字节数 <br>
 &nbsp;&nbsp;-w : --words 统计单词数 <br>
 &nbsp;&nbsp;-L : --max-line-length 打印最长行的长度 <br>
+
+<b>cut</b> <br>
+`cut [OPTION] file` <br>
+&nbsp;&nbsp;-d : 分隔符，按照指定分隔符分割列。与 -f 一起使用 <br>
+&nbsp;&nbsp;-f : 依据 -d 的分隔字符将一段信息分割成为数段，用 -f 取出第几段的意思（列号，提取第几列） <br>
+&nbsp;&nbsp;-c : 以字符 (characters) 的单位取出固定字符区间 <br>
+&nbsp;&nbsp;-b : 以字节为单位进行分割 <br>
