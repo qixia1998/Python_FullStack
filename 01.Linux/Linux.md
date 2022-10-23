@@ -51,8 +51,34 @@
 &nbsp;&nbsp;-L : --max-line-length 打印最长行的长度 <br>
 
 <b>cut</b> <br>
-`cut [OPTION] file` <br>
+` cut [OPTION]... [FILE]...` <br>
 &nbsp;&nbsp;-d : 分隔符，按照指定分隔符分割列。与 -f 一起使用 <br>
 &nbsp;&nbsp;-f : 依据 -d 的分隔字符将一段信息分割成为数段，用 -f 取出第几段的意思（列号，提取第几列） <br>
 &nbsp;&nbsp;-c : 以字符 (characters) 的单位取出固定字符区间 <br>
 &nbsp;&nbsp;-b : 以字节为单位进行分割 <br>
+
+<b>sort</b> <br>
+` sort [OPTION]... [FILE]...` <br>
+` sort [OPTION]... --files0-from=F` <br>
+&nbsp;&nbsp;-b --ignore-leading-blanks: 忽略前导空格 <br>
+&nbsp;&nbsp;-f --ignore-case: 将小写字符转为大写字符 <br>
+&nbsp;&nbsp;-t --field-separator=SEP: 使用SEP代替非空到空的转换 <br>
+&nbsp;&nbsp;-k --key=POS1[,POS2]: 在POS1处开始键(原点1)，在POS2处结束键(默认行结束) <br>
+&nbap;&nbsp;-u --unique: 对于-c检查严格的顺序，只输出相等运行的第一个 <br>
+
+### 5.VI编辑器
+##### Vi三种基本工作模式
+* <font color="red">命令模式</font>
+* <font color="red">文本输入模式</font>
+* <font color="red">末行模式</font>
+
+##### Vi基础操作
+<b>进入插入模式</b> <br>
+`i : 插入光标前一个字符` <br>
+`I : 插入行首` <br>
+`a : 插入光标后一个字符` <br>
+`A : 插入行末` <br>
+`o : 向下开新一行，插入行首` <br>
+`O : 向上新开一行，插入行首` <br>
+<b>进入末行模式</b> <br>
+`在命令模式下，用户按“:”键即可进入末行模式` <br>
